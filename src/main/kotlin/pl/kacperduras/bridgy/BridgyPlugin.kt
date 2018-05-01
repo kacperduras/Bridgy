@@ -26,12 +26,12 @@ class BridgyPlugin : JavaPlugin() {
 
   override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
     if (args.isEmpty()) {
-      sender.sendMessage(this.color("&cCorrect usage: &7/bridgy <command>&c."))
+      sender.sendMessage("&cCorrect usage: &7/bridgy <command>&c.".color())
       return true
     }
 
     if (!bridge.isBukkit) {
-      sender.sendMessage(this.color("&cInternal error!"))
+      sender.sendMessage("&cInternal error!".color())
       return true
     }
 
@@ -40,12 +40,12 @@ class BridgyPlugin : JavaPlugin() {
       return true
     }
 
-    sender.sendMessage(this.color("&cYou must be a Player!"))
+    sender.sendMessage("&cYou must be a Player!".color())
     return true
   }
 
-  private fun color(string: String): String {
-    return ChatColor.translateAlternateColorCodes('&', string)
+  private fun String.color(): String {
+    return ChatColor.translateAlternateColorCodes('&', this)
   }
 
 }
