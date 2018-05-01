@@ -1,0 +1,11 @@
+name: '${project.name}'
+author: 'Kacper Duras <contact@kacperduras.pl>'
+website: 'http://kacperduras.pl'
+version: '${project.version}'
+main: 'pl.kacperduras.bridgy.BridgyPlugin'
+depend: ['commandbridge-bukkit']
+
+commands:
+  bridgy:
+    description: "Main command of Bridgy plugin"
+    usage: "/bridgy <command>"

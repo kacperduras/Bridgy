@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mkdir -p $TRAVIS_BUILD_DIR/lib/
+wget https://github.com/kacperduras/CommandBridge/releases/download/1.0.2/CommandBridge.v1.0.2.jar --output-document $TRAVIS_BUILD_DIR/lib/CommandBridge.jar
