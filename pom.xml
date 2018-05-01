@@ -7,7 +7,7 @@
   <name>Bridgy</name>
   <groupId>pl.kacperduras</groupId>
   <artifactId>Bridgy</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <properties>
     <kotlin.version>1.2.41</kotlin.version>
