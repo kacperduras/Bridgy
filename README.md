@@ -3,7 +3,6 @@ Bridgy is an example implementation of [CommandBridge](https://github.com/kacper
 
 ## Releases
 Stable releases: [here](https://github.com/kacperduras/Bridgy/releases)  
-Development releases: [here](https://ci.kacperduras.pl/job/Bridgy)
 
 ## Contributing
 
