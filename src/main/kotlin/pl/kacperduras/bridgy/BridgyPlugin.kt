@@ -36,8 +36,7 @@ class BridgyPlugin : JavaPlugin() {
     }
 
     if (sender is Player) {
-      val player: Player = sender
-      bridge.bungee(player.name, StringUtils.join(args, " "))
+      bridge.bungee(sender.name, StringUtils.join(args, " "))
       return true
     }
 
