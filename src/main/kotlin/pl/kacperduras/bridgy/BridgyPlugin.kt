@@ -44,8 +44,6 @@ class BridgyPlugin : JavaPlugin() {
     return true
   }
 
-  private fun String.color(): String {
-    return ChatColor.translateAlternateColorCodes('&', this)
-  }
-
+  private fun String.color(): String = ChatColor.translateAlternateColorCodes('&', this)
+  
 }
